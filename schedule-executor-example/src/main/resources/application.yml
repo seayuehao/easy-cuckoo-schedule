@@ -1,0 +1,32 @@
+server:
+  port: 8373
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  application:
+    name: schedule-example
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+  main:
+    allow-bean-definition-overriding: true
+
+
+logging:
+  config: classpath:logback.xml
+
+
+netty:
+  url: 127.0.0.1
+  port: 10125
+
+
+jdbc:
+  url: jdbc:mysql://127.0.0.1:3306/wjs_schedule?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&connectTimeout=1000&socketTimeout=6000&useSSL=false&serverTimezone=UTC
+  driverClass: com.mysql.cj.jdbc.Driver
+  user: root
+  password: root
+

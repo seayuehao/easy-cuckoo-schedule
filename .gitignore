@@ -1,0 +1,45 @@
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+
+
+/*.project
+/.settings
+/schedule-admin/.settings
+/schedule-admin/*.classpath
+/schedule-admin/*.project
+/schedule-core/.settings
+/schedule-core/*.project
+/schedule-core/*.classpath
+/schedule-executor-example/.settings
+/schedule-executor-example/*.project
+/schedule-executor-example/*.classpath
+
+
+log.dir_IS_UNDEFINED/*
+HOME_IS_UNDEFINED/*
+/logs
+/out
+.DS_Store
+
+classes/
+*/target/
